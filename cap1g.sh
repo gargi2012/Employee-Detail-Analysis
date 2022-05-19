@@ -1,0 +1,1 @@
+sqoop import-all-tables "-Dorg.apache.sqoop.splitter.allow_text_splitter=true" --connect jdbc:mysql://ip-10-1-1-204.ap-south-1.compute.internal:3306/anabig114237?zeroDateTimeBehavior=convertToNull --username anabig114237 --password Bigdata123 --compression-codec=snappy --as-avrodatafile --warehouse-dir=/user/anabig114237/hive/warehouse --driver com.mysql.jdbc.Driver 
