@@ -1,12 +1,12 @@
--- Business Objective
+-- **Business Objective**
 
 Employee retention data analysis assists businesses in improving the quality of new employees, establishing high-performing sales teams, forecasting future staffing needs, and implementing more effective training. Employee data is crucial because it informs your firm about employee viewpoints, which can lead to better decisions, increased employee productivity, and decreased attrition rates.
 
--- Why is it a Big Data Engineering problem?
+-- **Why is it a Big Data Engineering problem?**
 
 We're creating, building, testing, and maintaining complicated data processing systems for a big data set in this project. As a result, it's a large data engineering problem.
 
--- Data
+-- **Data**
 
 Six csv files comprise the dataset. It contains information about employees of a large firm from the 1980s through the 1990s.
 Data Description: Please find the details of all the tables
@@ -38,7 +38,7 @@ emp_no – Employee number (head of the department ) – Integer – Not Null
 emp_no – Employee id – Integer – Not Null
 dept_no - Unique id for each department – character – Not Null
 
--- Technology Stack
+-- **Technology Stack**
 
 SQL, Sqoop, Hive, Impala, PySpark (Spark SQL and Spark ML), Jupyter notebook.
 
@@ -79,11 +79,11 @@ SQL, Sqoop, Hive, Impala, PySpark (Spark SQL and Spark ML), Jupyter notebook.
 
 	c. ML pipeline is built using Spark ML.
 
--- Final Outcome
+-- **Final Outcome**
 
 A pipeline of analysis done using impala and ML pipeline built using Jupyter notebook(random forest and logistic regression models were built).
 
--- Challenges faced
+-- **Challenges faced**
 
 	a. HUE platform being extremely slow at times.
 	b. Problems created due to incorrect format of dates. 
