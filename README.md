@@ -88,12 +88,12 @@ The Output of the Above Command will be Saved in the output.txt
 	
 	7. A list showing all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
 	
-select a.emp_no, last_name, first_name, dept_name 
-from employees a
-join dept_emp b
-on a.emp_no = b.emp_no
-join departments c on b.dept_no = c.dept_no
-where c.dept_no like '%d007%' or c.dept_no like '%d005%';
+	select a.emp_no, last_name, first_name, dept_name 
+		from employees a
+		join dept_emp b
+		on a.emp_no = b.emp_no
+		join departments c on b.dept_no = c.dept_no
+		where c.dept_no like '%d007%' or c.dept_no like '%d005%';
 
 
 	
